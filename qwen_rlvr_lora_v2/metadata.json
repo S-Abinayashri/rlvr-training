@@ -1,0 +1,67 @@
+{
+  "version": "qwen_rlvr_lora_v2",
+  "continued_from": "qwen_rlvr_lora",
+  "base_model": "Qwen/Qwen2.5-0.5B",
+  "reward_function": "Verifier-based: checks fix validity per bug_type (null_check, dead_code, redundant_code, unnecessary_code, wrong_variable). No ground truth comparison.",
+  "prompt_template": "Fix the bug in the following Java code:\n\nBuggy code:\n{buggy_code}\n\nFixed code:\n",
+  "bug_types": [
+    "null_check_missing",
+    "dead_code",
+    "redundant_code",
+    "unnecessary_code",
+    "wrong_variable"
+  ],
+  "training_hyperparameters": {
+    "learning_rate": 1e-05,
+    "epochs": 10,
+    "total_steps": 50,
+    "samples_per_epoch": 5,
+    "max_new_tokens": 30,
+    "gradient_accumulation_steps": 2,
+    "optimizer": "AdamW",
+    "gradient_clip": 1.0
+  },
+  "lora_config": {
+    "r": 8,
+    "lora_alpha": 16,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ],
+    "lora_dropout": 0.05,
+    "bias": "none",
+    "task_type": "CAUSAL_LM"
+  },
+  "training_results": {
+    "final_avg_reward": 0.29,
+    "positive_reward_rate": 0.6,
+    "epoch_losses": [
+      -0.8134501934051513,
+      2.852150821685791,
+      6.683759355545044,
+      2.1424225568771362,
+      0.08716418743133544,
+      0.3526476979255676,
+      0.50245201587677,
+      -1.2524513244628905,
+      3.9135093688964844,
+      0.5189691424369812
+    ],
+    "epoch_rewards": [
+      0.2,
+      0.3,
+      0.3,
+      0.3,
+      0.3,
+      0.3,
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "device": "mps",
+  "notes": "Continued training from qwen_rlvr_lora",
+  "tensorboard_log_dir": "runs/rlvr_bug_fix_20251230_112014",
+  "saved_at": "2025-12-30T11:26:26.307523"
+}

@@ -1,0 +1,113 @@
+{
+  "epoch": 14,
+  "best_avg_reward": -0.12595158740361784,
+  "running_baseline": NaN,
+  "training_history": [
+    {
+      "epoch": 1,
+      "avg_reward": -0.47496855345911954,
+      "max_reward": -0.12452830188679248,
+      "positive_rate": 0.0,
+      "baseline": NaN
+    },
+    {
+      "epoch": 2,
+      "avg_reward": -0.3486511430394508,
+      "max_reward": 0.08490566037735847,
+      "positive_rate": 0.13333333333333333,
+      "baseline": NaN
+    },
+    {
+      "epoch": 3,
+      "avg_reward": -0.42751184780899754,
+      "max_reward": 0.019281045751633974,
+      "positive_rate": 0.06666666666666667,
+      "baseline": NaN
+    },
+    {
+      "epoch": 4,
+      "avg_reward": -0.41689753004005337,
+      "max_reward": 0.09910714285714284,
+      "positive_rate": 0.06666666666666667,
+      "baseline": NaN
+    },
+    {
+      "epoch": 5,
+      "avg_reward": -0.3851465177541201,
+      "max_reward": 0.10517928286852586,
+      "positive_rate": 0.13333333333333333,
+      "baseline": NaN
+    },
+    {
+      "epoch": 6,
+      "avg_reward": -0.44979400749063664,
+      "max_reward": -0.1469101123595506,
+      "positive_rate": 0.0,
+      "baseline": NaN
+    },
+    {
+      "epoch": 7,
+      "avg_reward": -0.4119069786236716,
+      "max_reward": 0.08920353982300888,
+      "positive_rate": 0.13333333333333333,
+      "baseline": NaN
+    },
+    {
+      "epoch": 8,
+      "avg_reward": -0.376758926211193,
+      "max_reward": 0.097119341563786,
+      "positive_rate": 0.06666666666666667,
+      "baseline": NaN
+    },
+    {
+      "epoch": 9,
+      "avg_reward": -0.351265306122449,
+      "max_reward": 0.5310204081632652,
+      "positive_rate": 0.06666666666666667,
+      "baseline": NaN
+    },
+    {
+      "epoch": 10,
+      "avg_reward": -0.3337765963628296,
+      "max_reward": 0.09441624365482235,
+      "positive_rate": 0.13333333333333333,
+      "baseline": NaN
+    },
+    {
+      "epoch": 11,
+      "avg_reward": -0.31802013208563407,
+      "max_reward": 0.044032921810699566,
+      "positive_rate": 0.06666666666666667,
+      "baseline": NaN
+    },
+    {
+      "epoch": 12,
+      "avg_reward": -0.19782840981765387,
+      "max_reward": 0.448,
+      "positive_rate": 0.3333333333333333,
+      "baseline": NaN
+    },
+    {
+      "epoch": 13,
+      "avg_reward": -0.12595158740361784,
+      "max_reward": 0.6837004405286344,
+      "positive_rate": 0.4,
+      "baseline": NaN
+    },
+    {
+      "epoch": 14,
+      "avg_reward": -0.2966637092656674,
+      "max_reward": 0.4818181818181818,
+      "positive_rate": 0.26666666666666666,
+      "baseline": NaN
+    },
+    {
+      "epoch": 15,
+      "avg_reward": -0.1513894380026687,
+      "max_reward": 0.6499999999999999,
+      "positive_rate": 0.4,
+      "baseline": NaN
+    }
+  ],
+  "total_steps": 225
+}

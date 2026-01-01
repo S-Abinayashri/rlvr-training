@@ -1,0 +1,73 @@
+{
+  "epoch": 9,
+  "best_avg_reward": 0.3,
+  "training_history": [
+    {
+      "epoch": 1,
+      "avg_reward": -0.8400000000000001,
+      "positive_rate": 0.0,
+      "temperature": 1.0
+    },
+    {
+      "epoch": 2,
+      "avg_reward": -0.5,
+      "positive_rate": 0.2,
+      "temperature": 0.93
+    },
+    {
+      "epoch": 3,
+      "avg_reward": -0.76,
+      "positive_rate": 0.0,
+      "temperature": 0.86
+    },
+    {
+      "epoch": 4,
+      "avg_reward": -0.06000000000000002,
+      "positive_rate": 0.4,
+      "temperature": 0.79
+    },
+    {
+      "epoch": 5,
+      "avg_reward": -0.44000000000000006,
+      "positive_rate": 0.2,
+      "temperature": 0.72
+    },
+    {
+      "epoch": 6,
+      "avg_reward": -0.36,
+      "positive_rate": 0.2,
+      "temperature": 0.65
+    },
+    {
+      "epoch": 7,
+      "avg_reward": 0.3,
+      "positive_rate": 0.8,
+      "temperature": 0.5800000000000001
+    },
+    {
+      "epoch": 8,
+      "avg_reward": 0.29999999999999993,
+      "positive_rate": 0.6,
+      "temperature": 0.51
+    },
+    {
+      "epoch": 9,
+      "avg_reward": 0.15999999999999998,
+      "positive_rate": 0.6,
+      "temperature": 0.44000000000000006
+    },
+    {
+      "epoch": 10,
+      "avg_reward": 0.05999999999999998,
+      "positive_rate": 0.4,
+      "temperature": 0.37
+    }
+  ],
+  "total_steps": 50,
+  "config": {
+    "lr": 3e-05,
+    "epochs": 10,
+    "temperature_start": 1.0,
+    "temperature_end": 0.3
+  }
+}
